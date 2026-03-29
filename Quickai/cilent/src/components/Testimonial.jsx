@@ -1,4 +1,7 @@
 import React from 'react';
+import subash from '../image/subash.png';
+import Roshan from '../image/Roshan.jpeg';
+import karthikeyan from '../image/karthickeyan.jpeg';
 
 const Testimonial = () => {
     const [tooltip, setTooltip] = React.useState({
@@ -12,25 +15,24 @@ const Testimonial = () => {
 
     const testimonials = [
         {
-            name: 'John Doe',
-            title: 'Frontend Developer',
-            message:
-                'Integrating this component into our project was seamless and saved us countless hours of development and testing. Highly recommended!',
-            image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200',
+            name: 'SUBASH D',
+            title: 'Full Stack Engineer , Founder of QuickAI',
+           message:
+  'I am a Full Stack Engineer who loves turning ideas into real-world applications with seamless user experience and powerful backend logic.',
+            image: subash,
         },
         {
-            name: 'Jane Smith',
-            title: 'Full Stack Engineer',
+            name: 'Kiruthick Roshan A',
+            title: 'Frontend Developer , Co-Founder of QuickAI',
             message:
-                'This solution not only simplified our workflow but also improved our UI consistency across the board. Excellent tool for modern teams.',
-            image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200',
+  'Frontend Developer skilled in building responsive, user-friendly interfaces using modern technologies and best UI/UX practices.',
+            image: Roshan,
         },
         {
-            name: 'Bonnie Green',
-            title: 'UX Designer',
-            message:
-                'I was impressed with how intuitive and flexible the design was. It allowed us to rapidly prototype and launch features with confidence.',
-            image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop',
+            name: 'Karthikeyan S',
+            title: 'UX/UI Designer & QA Tester',
+            message: 'Focused on delivering intuitive user experiences and ensuring high-quality, bug-free applications.',
+            image: karthikeyan,
         },
     ];
 
@@ -51,9 +53,9 @@ const Testimonial = () => {
 
     return (
         <div ref={wrapperRef} className="relative">
-            <h1 className="text-center text-4xl font-bold text-gray-900">Loved By Creators</h1>
+            <h1 className="text-center text-4xl font-bold text-gray-900">QuickAI Full Stack Developer</h1>
             <p className="text-center text-gray-500 mt-1">
-                We have collected some testimonials from our users. They are real people who have used our product.
+                QuickAI is a powerful platform designed to simplify development and deliver intelligent, scalable solutions.
             </p>
 
             {/* Global Tooltip */}
@@ -80,7 +82,7 @@ const Testimonial = () => {
                     >
                         <div className="flex flex-col items-center justify-center p-8 text-center">
                             <div className="mb-4 text-gray-500">
-                                <h3 className="text-lg font-semibold text-gray-900">Very easy to integrate</h3>
+                                <h3 className="text-lg font-semibold text-gray-900"> 💫 Passionate about coding 💛</h3>
                                 <p className="my-4 text-sm line-clamp-3">{testimonial.message}</p>
                             </div>
                             <div className="flex items-center justify-center">
