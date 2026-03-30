@@ -135,7 +135,7 @@
   height: 520px;
 
   /* ✅ USE IMAGE FROM PUBLIC FOLDER */
-  background-image: url('/ask.png');
+  background-image: url('/ask3.gif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

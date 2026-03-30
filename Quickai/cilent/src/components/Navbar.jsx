@@ -27,12 +27,12 @@ const Navbar = () => {
 
       
   <div className=''>
-            <div className='text-slate-600'>
+            <div className='text-slate-500'>
               <h1 
                 onClick={() => navigate('/')} 
                 className="text-xl sm:text-2xl font-bold cursor-pointer bg-gradient-to-r from-green-500 via-orange-500 to-blue-500 bg-clip-text text-transparent"
 >
-    <h2 className='text-xl font-semibold'>
+    <h2 className='text-xl font-semibold bg-gradient-to-r from-green-500 via-orange-500 to-blue-500 bg-clip-text text-transparent'>
 <h1>                <Protect plan ='premium' fallback="Quick AI Studio">Quick AI Pro  - </Protect>  
 </h1>
                 <Protect plan ='premium' fallback="Free"><span>Premium</span></Protect>

@@ -29,7 +29,13 @@ const Testimonial = () => {
             image: Roshan,
         },
         {
-            name: 'Karthikeyan S',
+            name: 'Karthikeyan U',
+            title: 'UX/UI Designer & QA Tester',
+            message: 'Focused on delivering intuitive user experiences and ensuring high-quality, bug-free applications.',
+            image: karthikeyan,
+        },
+        {
+            name: 'Aslam A',
             title: 'UX/UI Designer & QA Tester',
             message: 'Focused on delivering intuitive user experiences and ensuring high-quality, bug-free applications.',
             image: karthikeyan,

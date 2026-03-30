@@ -131,7 +131,7 @@ const ChatBox = ({ active }) => {
             
             {/* ICON */}
             <span className="icon">
-              {msg.type === "user" ? "🦹‍♂️" : "👉"}
+              {msg.type === "user" ? "🤦" : "👉"}
             </span>
 
             <span>{msg.text}</span>
