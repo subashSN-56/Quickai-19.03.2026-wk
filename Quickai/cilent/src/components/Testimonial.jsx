@@ -2,6 +2,7 @@ import React from 'react';
 import subash from '../image/subash.png';
 import Roshan from '../image/Roshan.jpeg';
 import karthikeyan from '../image/karthickeyan.jpeg';
+import aslam from '../image/aslam.jpeg';
 
 const Testimonial = () => {
     const [tooltip, setTooltip] = React.useState({
@@ -38,7 +39,7 @@ const Testimonial = () => {
             name: 'Aslam A',
             title: 'UX/UI Designer & QA Tester',
             message: 'Focused on delivering intuitive user experiences and ensuring high-quality, bug-free applications.',
-            image: karthikeyan,
+            image: aslam,
         },
     ];
 
