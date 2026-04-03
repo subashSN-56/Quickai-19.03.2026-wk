@@ -85,10 +85,9 @@ const Footer = () => {
                         src={logo}
                     />
 
-                    <p className="mt-6 text-sm leading-relaxed">
-                        Design and Development of an AI-Powered Multi Tool Platform 
-                        for Creative and Professional Tasks.
-                    </p>
+                 <p className="mt-6 text-sm leading-relaxed hover:text-pink-500">
+  QuickAI is an AI-powered multi-tool platform designed for creative and professional tasks, helping users work faster and smarter.
+</p>
 
                     {/* Optional App Buttons */}
                     <div className="flex items-center gap-2 mt-4">
@@ -110,21 +109,22 @@ const Footer = () => {
                     
                     {/* Company Links */}
                     <div>
-                        <h2 className="font-semibold mb-5 text-white">Company</h2>
+                        <h2 className="font-semibold mb-5 text-red-500">History of QuickAI</h2>
                         <ul className="text-sm space-y-2">
-                            <li><a href="#" className="hover:text-white">Home</a></li>
-                            <li><a href="#" className="hover:text-white">About Us</a></li>
-                            <li><a href="#" className="hover:text-white">Contact Us</a></li>
-                            <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
+                            <li><a href="https://portfolio-coder-56.vercel.app/" className="hover:text-pink-500">portfolio 🫰</a></li>
+                            <li><a href="https://chatapplive-xzgd.onrender.com/" className="hover:text-pink-500">Chat Application 💬</a></li>
+                            <li><a href="https://github.com/subashSN-56" className="hover:text-pink-500">Git Hub 🌟</a></li>
+                            <li><a href="https://www.linkedin.com/in/subash-d-2804b2302" className="hover:text-pink-500">LinkedIn 🌐</a></li>
+                            <li><a href="https://leetcode.com/u/subash56/" className="hover:text-pink-500">LeetCode 🧠</a></li>
                         </ul>
                     </div>
 
                     {/* Contact */}
                     <div>
-                        <h2 className="font-semibold mb-5 text-white">Get in touch</h2>
+                        <h2 className="font-semibold mb-5 text-red-500">Get in touch</h2>
                         <div className="text-sm space-y-2">
-                            <p>+91 85248 81862 📞</p>
-                            <p>subashdev1546@gmail.com 📧</p>
+                            <p className="hover:text-pink-500">+91 85248 81862 📞</p>
+                            <p className="hover:text-pink-500">subashdev1546@gmail.com 📧</p>
                         </div>
                     </div>
 
@@ -134,7 +134,7 @@ const Footer = () => {
             {/* Bottom */}
             <p className="pt-4 text-center text-sm pb-5">
                 © {new Date().getFullYear()}{" "}
-                <span className="font-medium text-white">QuickAI ❤️ </span>. 
+                <span className="font-medium text-white">QuickAI  </span>. 
                 All rights reserved.
             </p>
 
