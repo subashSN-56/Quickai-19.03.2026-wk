@@ -25,7 +25,7 @@ const Hero = () => {
   </button>
 
 <a
-  href="https://job-portal-new123.vercel.app/"
+  href="https://job-portal-new-brown-seven.vercel.app/"
   target="_blank"
   rel="noopener noreferrer"
   className='bg-pink-500 text-white px-10 py-3 rounded-lg border border-gray-300 hover:scale-105 active:scale-95 transition cursor-pointer inline-block hover:bg-pink-600'
