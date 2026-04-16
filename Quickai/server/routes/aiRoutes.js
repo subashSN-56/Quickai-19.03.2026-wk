@@ -13,3 +13,5 @@ aiRouter.post('/remove-image-object', upload.single('image'), auth, removeImageO
 aiRouter.post('/resume-review', upload.single('resume'), auth, resumeReview)
 
 export default aiRouter
+
+
