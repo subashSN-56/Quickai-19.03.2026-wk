@@ -44,7 +44,8 @@ const Footer = () => {
                             <li><a href="https://portfolio-coder-56.vercel.app/" className="hover:text-pink-500">portfolio 🫰</a></li>
                             <li><a href="https://chatapplive-xzgd.onrender.com/" className="hover:text-pink-500">Chat Application 💬</a></li>
                             <li><a href="https://job-portal-new-version1.vercel.app/" className="hover:text-pink-500">Job protal 💎 </a></li>
-                            <li><a href="https://quickai-bot.vercel.app/" className="hover:text-pink-500">AI💎 </a></li>
+                            <li><a href="https://quickai-bot.vercel.app/" className="hover:text-pink-500">AI💫 </a></li>
+                            <li><a href="https://vegetaionproject.streamlit.app/" className="hover:text-pink-500">Vegetation Detection 🎄</a></li>
                             <li><a href="https://github.com/subashSN-56" className="hover:text-pink-500">Git Hub 🌟</a></li>
                             <li><a href="https://www.linkedin.com/in/subash-d-2804b2302" className="hover:text-pink-500">LinkedIn 🌐</a></li>
                             <li><a href="https://leetcode.com/u/subash56/" className="hover:text-pink-500">LeetCode 🧠</a></li>
